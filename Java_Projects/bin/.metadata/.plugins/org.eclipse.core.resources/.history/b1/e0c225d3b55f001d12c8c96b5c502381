@@ -1,0 +1,20 @@
+package maddy_array;
+
+public class ArrayDemo {
+
+	public static void main(String[] args) {
+		int i = 0;
+		int a[] = new int[5];
+		a[0]=4;
+		a[1]=2;
+		a[2]=3;
+		a[3]=5;
+		a[4]=7;
+		
+		System.out.println("num is :"+a[i]);
+		
+		
+
+	}
+
+}

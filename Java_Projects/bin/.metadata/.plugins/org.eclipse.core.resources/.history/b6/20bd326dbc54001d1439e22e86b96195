@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<Html>  
+<head>   
+<title>  Registration Page  </title>  
+</head>  
+<body bgcolor="Lightskyblue">  
+<br>  
+<br>  
+<form name="userform" action="RegistrationForm" method="post">  
+ 
+<label>FirstName:</label> 
+<input type="text" name="firstname" size="15"/> <br> <br>  
+<label>LastName:</label> 
+<input type="text" name="lastname" size="15"/> <br> <br>  
+<br>  
+<br>  
+<label>   
+Gender :  
+</label>
+<br>  
+<input type="radio" name="gender" value="male"/> Male <br>  
+<input type="radio" name="gender" value="female"/> Female  <br>
+
+<br>  
+<br>  
+  
+
+<input type="submit" >
+  
+</form>  
+</body>  
+</html>  

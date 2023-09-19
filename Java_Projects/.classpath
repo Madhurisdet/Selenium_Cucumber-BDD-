@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/JavaDynamicProject"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Login_RegistrationForm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ServletJdbcConnectivity"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SignUp"/>
+	<classpathentry kind="lib" path="C:/Drivers/mysql-connector-j-8.0.31.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

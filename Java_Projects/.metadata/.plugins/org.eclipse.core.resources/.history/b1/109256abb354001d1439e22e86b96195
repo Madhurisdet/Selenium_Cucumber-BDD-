@@ -1,0 +1,38 @@
+package ServletPackage;
+
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+import java.io.IOException;
+
+
+public class UserFormServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    
+    public UserFormServlet() {
+        super();
+       
+    }
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	
+		String firstname=request.getParameter("firstname");
+		String lastname=request.getParameter("lastname");
+		String gender1=request.getParameter("male");
+		String gender2=request.getParameter("female");
+		int phone=Integer.parseInt(request.getParameter("phone"));
+		
+		response.getWriter().append("<h> My Details...</h>");
+		response.getWriter().append("FirstName:"+firstname +"==="+"LastName:"+lastname);
+		response.getWriter().append("Gender:" +gender1 +gender2);
+		response.getWriter().append("Phone:" +phone);
+		response.getWriter().append("successfull!!!!");
+	
+	}
+
+}

@@ -1,0 +1,24 @@
+
+public class InnerClassDemo {
+	int a;
+	public void show()
+	{
+		System.out.println("in innerclass");
+	}
+
+	class Outer
+	{
+		
+		int b=5;
+		public void display() 
+		{
+			System.out.println("in outerclass");
+		}
+	}
+	public static void main(String[] args) {
+		
+			InnerClassDemo obj=new InnerClassDemo();
+			obj.show();
+	}
+
+}

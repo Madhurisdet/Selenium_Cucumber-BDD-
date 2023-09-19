@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;JavaDynamicWeb&apos;" deleteContents="true" description="Delete resource &apos;JavaDynamicWeb&apos;" element1="/JavaDynamicWeb" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1666036042213"/>
+</session>

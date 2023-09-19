@@ -1,0 +1,46 @@
+package ServletPackage;
+import java.lang.*;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+
+public class UserFormServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    
+    public UserFormServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	
+	/*protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		//response.getWriter().append("Served at: ").append(request.getContextPath());
+	}*/
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		doGet(request, response);
+		String firstname=request.getParameter("firstname");
+		String middlename=request.getParameter("middlename");
+		String lastname=request.getParameter("lastname");
+		String male=request.getParameter("male");
+		String female=request.getParameter("female");
+		String phone=request.getParameter("phone");
+		String registerbtn=request.getParameter("registerbtn");
+		
+		response.getWriter().append("<h> My Details...</h>");
+		response.getWriter().append("FirstName:"+firstname +"==="+"MiddleName:"+middlename+"==="+"LastName:"+lastname);
+		response.getWriter().append("Gender:" +male +female);
+		response.getWriter().append("Phone:" +Integer.parseInt(phone));
+		response.getWriter().append("successfull!!!!" +registerbtn);
+	
+	}
+
+}

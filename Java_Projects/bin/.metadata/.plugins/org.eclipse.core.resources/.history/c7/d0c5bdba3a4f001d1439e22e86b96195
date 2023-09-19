@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<Html>  
+<head>   
+<title>  Registration Page  </title>  
+</head>  
+<body bgcolor="Lightskyblue">  
+<br>  
+<br>  
+<form name="userform" action="UserFormServlet" method="post">  
+ 
+<label>FirstName:</label> <input type="text" name="firstname" size="15"/> <br> <br>  
+
+<label>MiddleName:</label> <input type="text" name="middlename" size="15"/> <br> <br>  
+       
+<label>LastName:</label> <input type="text" name="lastname" size="15"/> <br> <br>  
+  
+
+<br>  
+<br>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br>  
+
+<br>  
+<br>  
+  
+<label>   
+Phone :  
+</label>   
+<input type="text" name="country_code"  value="+91" size="2"/>   
+<input type="text" name="phone" size="10"/> <br> <br>  
+
+<button type="submit" class="registerbtn">Register</button>   
+</form>  
+</body>  
+</html>  

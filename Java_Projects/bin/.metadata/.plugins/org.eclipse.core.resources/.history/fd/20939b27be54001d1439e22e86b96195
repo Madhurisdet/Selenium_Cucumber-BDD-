@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<Html>  
+<head>   
+<title>  Registration Page  </title>  
+</head>  
+<body bgcolor="Lightskyblue">  
+<br>  
+<br>  
+<form name="userform" action="RegistrationForm" method="post">  
+<table>
+ <tr>
+<td>FirstName:</td> 
+<td>
+<input type="text" name="firstname" size="15"/>  
+<label>LastName:</label> 
+<input type="text" name="lastname" size="15"/>   
+</td>
+</tr>
+ 
+<tr>
+<td>DOB:</td> 
+<td>
+<input type="date" name="dob"/>   
+</td>
+</tr>
+
+<tr>
+<td>Gender:</td>
+<td>
+<input type="radio" name="gender" value="male"> Male  
+<input type="radio" name="gender" value="female"> Female 
+</td>
+</tr>
+
+<tr>
+<td>Qualification<td>
+<td>
+<select name="qlfy">   
+<option value=" " selected="selected">Select</option>
+<option value="engg">B.Tech</option>
+<option value="Accountant">B.Com</option>
+<option value="art">BA</option>
+<option value="MBBS">Medico</option>
+<option value="Musical">Musician</option>
+</select>
+</td>
+</tr>
+  
+<tr>
+<td>Hobbies:</td>
+<td>
+<input type="checkbox" name="hb" value="reading">Reading
+<input type="checkbox" name="hb" value="playing">cricket
+<input type="checkbox" name="hb" value="traveller">traveling
+<input type="checkbox" name="hb" value="dancing">dancing
+<input type="checkbox" name="hb" value="singing">singing
+</td>
+</tr>
+
+
+   
+<tr>
+<td>Submit</td>
+<td>
+<input type="submit" >
+</td>
+</tr>
+ 
+</table>
+</form>  
+</body>  
+</html>  
