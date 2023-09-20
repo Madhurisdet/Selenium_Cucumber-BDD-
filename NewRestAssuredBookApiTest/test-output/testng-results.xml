@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-20T10:16:15 PDT" name="Default suite" finished-at="2023-09-20T10:16:17 PDT" duration-ms="1803">
+    <groups>
+    </groups>
+    <test started-at="2023-09-20T10:16:15 PDT" name="Default test" finished-at="2023-09-20T10:16:17 PDT" duration-ms="1803">
+      <class name="testbookApi.testUsersData">
+        <test-method signature="createUser()[pri:0, instance:testbookApi.testUsersData@6d763516]" started-at="2023-09-20T10:16:15 PDT" name="createUser" finished-at="2023-09-20T10:16:17 PDT" duration-ms="1774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- testbookApi.testUsersData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
