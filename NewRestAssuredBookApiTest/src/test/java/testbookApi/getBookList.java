@@ -10,7 +10,7 @@ import io.restassured.response.ResponseBody;
 public class getBookList {
 
 	@Test
-	void getAllBookList()
+	public void getAllBookList()
 	{
 		given()
 		

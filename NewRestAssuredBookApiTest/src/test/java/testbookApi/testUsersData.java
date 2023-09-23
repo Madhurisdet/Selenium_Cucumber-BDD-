@@ -5,7 +5,11 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import java.util.HashMap;
 
+import org.apache.http.util.Asserts;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import io.restassured.response.Response;
 
 public class testUsersData {
 	 
@@ -23,13 +27,13 @@ public class testUsersData {
 	}
 	
 	@Test
-	void createUser() {
+	public void createUser() {
 		
 		HashMap data = new HashMap();
 		data.put( "name", "madhuri");
 		data.put("job", "leader");
 		
-		
+		Response res =
 		given()
 		.contentType("application/json")
 		.body(data)
@@ -41,9 +45,12 @@ public class testUsersData {
 		.then()
 		 .statusCode(201)
 		 .log().all()
-		;
+		 .extract().response();
+		
+		String stringJSon = res.asString();
+		Assert.assertEquals(stringJSon.contains("George"), true);
+		
+		
 	}
 
-	
-	
 }
