@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-20T10:16:15 PDT" name="Default suite" finished-at="2023-09-20T10:16:17 PDT" duration-ms="1803">
+  <suite started-at="2023-09-26T15:16:03 PDT" name="Default suite" finished-at="2023-09-26T15:16:06 PDT" duration-ms="3824">
     <groups>
     </groups>
-    <test started-at="2023-09-20T10:16:15 PDT" name="Default test" finished-at="2023-09-20T10:16:17 PDT" duration-ms="1803">
-      <class name="testbookApi.testUsersData">
-        <test-method signature="createUser()[pri:0, instance:testbookApi.testUsersData@6d763516]" started-at="2023-09-20T10:16:15 PDT" name="createUser" finished-at="2023-09-20T10:16:17 PDT" duration-ms="1774" status="PASS">
+    <test started-at="2023-09-26T15:16:03 PDT" name="Default test" finished-at="2023-09-26T15:16:06 PDT" duration-ms="3824">
+      <class name="testbookApi.getBookList">
+        <test-method signature="getAllBookList()[pri:0, instance:testbookApi.getBookList@7ec7ffd3]" started-at="2023-09-26T15:16:03 PDT" name="getAllBookList" finished-at="2023-09-26T15:16:06 PDT" duration-ms="3754" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-      </class> <!-- testbookApi.testUsersData -->
+        </test-method> <!-- getAllBookList -->
+      </class> <!-- testbookApi.getBookList -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
